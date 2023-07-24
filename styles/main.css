@@ -1,0 +1,33 @@
+body {
+    background-color: teal; /*background color*/
+}
+
+#current-fish {
+    display: flex; /*flex box*/
+    justify-content: space-around;
+    flex-direction: row;
+}
+aside {
+    width: 300px; /* Adjust the width as needed */
+    padding: 20px;
+  }
+
+body {
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: row;
+}
+.tipsList {
+    float: right;
+    justify-content: right;
+    background-color: rgb(87, 113, 168);
+}
+.spotList {
+    background-color:  rgb(87, 113, 168);
+}
+.fishList {
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
